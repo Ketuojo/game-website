@@ -1,0 +1,177 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:wght@400;700;800;900&display=swap" rel="stylesheet">
+<!-- linking css -->
+
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+       <h1>SK.</h1>
+
+       <ul id="nav-links">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#"></a>Our work</li>
+
+        <button class="nav-btn">Donate Now</button>
+
+        <ion-icon name="close" id="close"></ion-icon>
+       </ul>
+
+       <ion-icon name="menu" id="bar"></ion-icon>
+       
+    </header>
+
+
+    <section class="hero-section">
+      <div class="hero-info">
+        <h2>Help people in need</h2>
+        <p>this is an organization which helps in conserving wildlife by helping in their treatment.</p>
+        <button class="hero-btn"><ion-icon name="create-outline"></ion-icon>Donate now</button>
+      </div>
+
+      <div class="hero-img-container">
+        <img src="./hero-image.png.png" alt="">
+      </div>
+    </section>
+    <!-- End of hero section -->
+
+    <!-- testimonial section -->
+
+     <div class="testimonial-section">
+      <img src="./Testimonials Left.png" alt="">
+        <div class="word">
+          <h3>What our members  say</h3>
+        <p>All the wildlife have equal chance to live their free lives. <br> Save Environment. Save Forests. Save Wildlife</p>
+        <button class="btn">learn more</button>
+        </div>
+        
+     </div>
+
+     <!-- Game section -->
+
+     <section class="game-section">
+      <h1>Our helping hand</h1>
+
+
+      <div class="games-container">
+        <div class="games">
+          <img src="./cartoon image.png" alt="">
+          <h3>games design essntials</h3>
+        </div>
+
+        <div class="games">
+          <img src="./game pad.png" alt="">
+          <h3>unity game engine fundamentals</h3>
+        </div>
+      </div>
+      <button class="games-btn">All Courses</button>
+     </section>
+
+     <!-- App section -->
+
+     <section class="app-section">
+        <div>
+          <h2>Get our App</h2>
+        <p class="para">You can use our App for better experience on smartphones</p>
+        </div>
+       </div>
+       <div class="app">
+        <div class="app-store"> <img src="./App store.svg" alt="">
+          <p>App store</p>
+          </div>
+         <div class="play-store">
+          <img src="./play store.svg" alt="">
+          <p>Google play</p>
+         </div>
+     </section>
+     <!-- End of App Section -->
+
+     <!-- footer starts -->
+
+     <footer>
+      <div class="footer">
+        <div class="footer-section">
+          <div class="link">
+            <h2>Quick Link</h2>
+            <ul>
+              <li><a href="">About Us</a></li>
+              <li><a href=""></a>Contact Us</li>
+              <li><a href=""></a>Privacy Policy</li>
+              <li><a href=""></a>Terms & Conditions</li>
+            </ul>
+          </div>
+  
+          <div class="course">
+            <h2>Course</h2>
+            <ul>
+              <li><a href="">Log In</a></li>
+              <li><a href=""></a>Download</li>
+              <li><a href=""></a>All Courses</li>
+            </ul>
+          </div>
+  
+          <div class="contact">
+            <h2>Contact Us</h2>
+            <p>contact@email.com</p>
+            
+            <div class="icon">
+              <ion-icon name="logo-facebook"></ion-icon>
+              <ion-icon name="logo-instagram"></ion-icon>
+            </div>
+
+            <div class="input-div">
+                <input type="text" placeholder="Email Address"
+                required>
+                <button>Suscribe</button>
+            </div>
+          </div>
+            
+        </div>
+        <p class="para">This website is developed by ketucoding © 2021</p>
+      </div>
+      
+     </footer>
+
+
+
+
+
+
+
+
+<script src="main.js"></script>
+
+<script>
+  const bar = document.getElemntById('bar')
+const close = document.getElementById('close')
+const nav = document.getElementById('nav-links')
+
+if (bar) {
+    bar.addEventListener('click', ()=>{
+        nav.classList.add('active')
+    })
+}
+
+if (close) {
+    close.addEventListener('click', ()=>{
+        nav.classList.add('active')
+    })
+}
+
+</script>
+
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

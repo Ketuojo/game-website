@@ -1,0 +1,741 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Raleway', sans-serif; */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6f7dfb;
+    padding: 1rem 3rem;
+}
+
+#nav-links{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-links li{
+    list-style: none;
+}
+
+#nav-links li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.nav-btn {
+    padding: 0.8rem 2rem;
+    background-color: #023047;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#bar{
+    font-size: 1.8rem;
+    color: #070917;
+    display: none;
+}
+
+#close{
+    font-size: 1.8rem;
+    color: #070917;
+    display: none;
+    color: white;
+}
+
+
+/* Hero section */
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6f7dfb;
+    color: white;
+    padding: 10px 40px;
+}
+
+.hero-info {
+    width: 45%;
+}
+
+.hero-info h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "raleway", sans-serif;
+    margin-bottom: o;
+}
+
+.hero-info p {
+    font-size: 15px;
+    font-family: "poppins", sans-serif;
+    line-height: 25px;
+}
+
+.hero-btn {
+    background-color: #da722c;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    margin-top: 20px;
+}
+
+.hero-img-container {
+    width: 40%;
+}
+
+.hero-img-container img {
+    width: 100%;
+}
+
+/* testimonail section */
+
+.testimonial-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 35px 40px;
+}
+
+.testimonial-section h3{
+    font-family: Raleway;
+font-size: 60px;
+font-weight: 800;
+line-height: 72px;
+margin-bottom: 0;
+
+}
+
+.testimonial-section .p{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+}
+
+.testimonial-section .btn{
+    padding: 12px 17px;
+    border-radius: 15px;
+    border: none;
+    background-color: #da722c;
+    color: white;
+    margin-top: 30px;
+}
+/* end of testimonial section */
+
+/* Game section starts*/
+
+.game-section{
+    background-color: #6f7dfb;
+    padding: 35px 40px 60px 40px;
+    font-family: "raleway", sans-serif;
+    position: relative;
+}
+
+.game-section h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+
+.games-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+    margin-bottom: 70px;
+}
+
+.games {
+    background-color: white;
+    padding: 0 10px 0 10px;
+    border-radius: 20px;
+}
+
+.games img {
+    width: 100%;
+    
+}
+
+.games h3 {
+    color: #023047;
+    font-weight: 800;
+} 
+
+.games-btn {
+    padding: 10px 20px;
+    background-color: #da722c;
+    position: absolute;
+    right: 60px;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 50px;
+}
+
+
+/* End of Game section */
+
+/* App section starts */
+
+.app-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "ralewat", sans-serif;
+    padding: 5px 40;
+}
+
+.app-section h2 {
+    font-size: 50px;
+    color: #023047;
+    font-weight: 900;
+    text-align: center;
+}
+
+.app-section p {
+    text-align: center;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.app-store {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    width: 220px;
+    height: 11vh;
+    gap: 8px;
+    
+}
+
+.play-store {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    width: 220px;
+    height: 11vh;
+    gap: 8px;
+    
+}
+
+.app img {
+    width: 25px;
+}
+
+.app-section .para {
+    font-size: 15px;
+    color: #023047;
+    margin-bottom: 45px;
+}
+/* App section Ends */
+
+/* footer section starts */
+
+.footer {
+    background: #070917;
+    color: white;
+    padding: 30px 40px;
+    font-family: "poppins", sans-serif;
+}
+
+.footer-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: "poppins", sans-serif;
+    color: white; 
+    
+}
+.footer-section h2 {
+    color: #da722c;
+    margin-bottom: 10px;
+}
+
+.footer-section li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-section li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.footer ul {
+    /* margin-left: 20px; */
+}
+
+.contact p {
+    font-size: 14px;
+}
+
+.course ul {
+
+}
+
+
+.contact .icon {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 18px;
+}
+
+.contact .input-div {
+    position: relative;
+}
+
+.contact .input-div input {
+    width: 90%;
+    height: 4ph;
+    padding: 2px 6px;
+    outline: none;
+    border-radius: 7px;
+    border: 1px solid #023047;
+    
+}
+.contact .input-div button{
+    background-color: #023047;
+    color: white;
+    padding: 1px 20px;
+    font-size: 12px;
+    border: none;
+    border-radius: 7px;
+    position: absolute;
+    top: 2.5px;
+    right: 45px;
+}
+
+.footer .para {
+    font-size: 12px;
+    margin-top: 40px;
+}
+  
+/* ********Responsive Design******* **/
+@media (max-width: 480px) {
+    /* Header section styles */
+
+    header{
+        padding: 1rem;
+    }
+
+    #nav-links{
+        flex-direction: column;
+        position: fixed;
+        top: -600px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #070917;
+        gap: 1.5rem;
+        justify-content: center;
+    }
+
+    #nav-links.active{
+        top: 0;
+    }
+
+    #bar{
+        display: block;
+    }
+
+    #close {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 40px;
+
+    }
+
+
+    /* hero secction starts */
+    .hero-section{
+        padding: 20px 20px;
+        flex-direction: column;
+    }
+
+    .hero-info {
+        width: 100%;
+    }
+
+    .hero-info h2 {
+        font-size: 30px;
+    }
+    .hero-info p {
+        font-size: 14px;
+    }
+
+    .hero-btn {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .hero-image-container {
+        width: 100%;
+    }
+
+    /* testimonial section */
+      
+    .testimonial-section {
+        padding: 30px 20px;
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .testimonial-section h3 {
+        font-size: 27px;
+    }
+
+    .testimonial-section p {
+        font-size: 14px;
+    }
+
+    .testimonial-section .btn {
+        padding: 8px 13px;
+        font-size: 12px;
+        margin-top: 0;
+    }
+
+    .testimonial-section img {
+        width: 100%;
+    }
+
+    /* Game section */
+
+    .game-section {
+        padding: 35px 30px 60px 30px;
+    }
+
+    .game-section h1 {
+        font-size: 30px;
+    }
+
+    .games-container {
+        grid-template-columns: 1fr;
+    }
+
+    .games h3 {
+        font-size: 13px;
+    }
+    /* App section */
+
+    .app-section {
+        padding: 30px 30px 50px 30px;
+    }
+
+    .app-section p {
+        font-size: 13px;
+    }
+
+
+    .app-section h2 {
+      font-size: 30px;
+    }
+
+    .app {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .app .app-store {
+       width: 100%;
+    }
+
+    .app .play-store {
+       width: 100%;
+    }
+
+    /* footer styles*/
+    footer {
+        padding: 40px 20px 20px 20px;
+    }
+    .footer-section {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .link ul {
+        padding-left: 0;
+    }
+    
+    .course li a {
+        font-size: 14px;
+    }
+    .link li a {
+        font-size: 14px;
+    }
+
+    .course ul {
+        padding-left: 0;
+    }
+
+    .contact {
+        width: 100%;
+    }
+    .contact .icon {
+        justify-content: center;
+    }
+
+    .input-div input {
+        height: 4vh;
+    }
+    .contact .input-div button {
+        top: 4px;
+        right: 12%;
+    }
+
+    .contact .input-div button {
+        position: static;
+    }
+    .input-div button {
+        position: static;
+        margin-top: 10px;
+    }
+
+    .footer .para {
+        text-align: center;
+    }
+
+}
+
+/* for ipads and tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+    .hero-section{
+        padding: 20px 35px;
+        flex-direction: column;
+        background-color: black;
+    }
+
+    .hero-info {
+        width: 100%;
+    }
+
+    .hero-image-container {
+        width: 80%;
+    }
+
+    /* testimonial section styles */
+
+    .testimonial-section {
+        padding: 30px 35px;
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    .testimonial-section img {
+        width: 100%;
+    }
+
+    .testimonial-info h2 {
+        font-size: 14px;
+    }
+    .testimonial-info p {
+        font-size: 14px;
+    }
+    .testimonial-section .btn {
+        padding: 8px 15px;
+        font-size: 13px;
+        margin-top: 0;
+    }
+
+    /* game section styles */
+    .game-section {
+        padding: 30px 55px 90px 55px;
+    }
+
+    .game-section h1 {
+        font-size: 30px;
+    }
+
+    .game-container {
+        grid-template-columns: 1fr;
+    }
+
+    .game h3 {
+        font-size: 16px;
+    }
+
+    .game-btn {
+        padding: 8px 13px;
+        font-size: 13px;
+        right: 10%;
+    }
+
+    /* app section styles */
+
+    .app-section {
+        padding: 30px 35px 50px 35px;
+    }
+
+    .app-section h1 {
+        font-size: 28px;
+    }
+
+    .app-store {
+        width: 200px;
+        height: 16vh;
+    }
+
+    .play-store {
+        width: 200px;
+        height: 16vh;
+    }
+
+    /* footer styles */
+    
+    footer {
+        padding: 40px 35px 20px 35px;
+    }
+
+    .footer-section {
+        grid-template-columns: 45% 45%;
+        gap: 10%;
+    }
+
+    .contact {
+        width: 400px;
+    }
+    .input-div input {
+        height: 4vh;
+    }
+
+    .contact .input-div button {
+        top: 30%;
+        right: 23%;
+    }
+
+    footer .para {
+        margin-top: 90px;
+    }
+
+}
+
+/* small screens and laptop */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .hero-section {
+        padding: 10px 35px;
+    }
+
+    .hero-info h2 {
+        font-size: 35px;
+    }
+
+    .hero-info p {
+        font-size: 14px;
+    }
+
+
+    /* testimonial section starts */
+
+.testimonial-section {
+    padding: 30px 35px;
+    flex-direction: row-reverse;
+}
+
+.testimonial-section img {
+    width: 40%;
+}
+
+.testimonial-info {
+    width: 50%;
+}
+
+.testimonial-info h2 {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.testimonial-btn {
+    margin-top: 0;
+}
+
+
+
+
+/* Game section starts */
+
+.game-section {
+    padding: 20px 35px;
+}
+
+.game-section h1 {
+    font-size: 35px;
+}
+
+.game h3 {
+    font-size: 16px;
+}
+
+
+
+.games .line {
+    display: none;
+}
+
+/* app section starts */
+
+
+.app-section {
+    padding: 30px 35px 50px 35px;
+}
+
+.app-section h1 {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.apps-div .app-store {
+    height: 17vh;
+}
+
+.apps-div .play-store {
+    height: 17vh;
+}
+
+/* footer section starts */
+
+footer {
+    padding: 40px 35px 20px 35px;
+}
+
+.link li a {
+    font-size: 14px;
+}
+
+.input-div input {
+    height: 6vh;
+}
+
+.link ul {
+    padding-left: 0;
+}
+
+
+}
+
+
+
+
+ 
